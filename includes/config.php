@@ -18,6 +18,5 @@
     {
         die("Connection failed: " . $db->connect_error);
     } 
-    echo "Connected successfully (".$db->host_info.")";
-    
+
 ?>

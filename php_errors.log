@@ -1,0 +1,6 @@
+[30-Jan-2016 19:21:51 UTC] PHP Notice:  Undefined variable: mysqli in /home/ubuntu/workspace/public/process_register.php on line 27
+[30-Jan-2016 19:21:51 UTC] PHP Stack trace:
+[30-Jan-2016 19:21:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_register.php:0
+[30-Jan-2016 19:21:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/public/process_register.php on line 27
+[30-Jan-2016 19:21:51 UTC] PHP Stack trace:
+[30-Jan-2016 19:21:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_register.php:0

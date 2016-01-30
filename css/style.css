@@ -29,33 +29,51 @@ h1 {
 }
 
 .container {
-	margin: 30px 20px;
-	padding: 10px;
+	margin: 30px 0;
 	width: 45%;
+}
+
+.left {
 	float: left;
+	text-align: right;
+}
+
+.right {
+	float: right;
+	text-align: left;
+}
+
+.center {
+	width: 100%;
+	line-height: 50px;
 }
 
 .button {
 	border-radius: 5px;
-	margin: 40px 20px;
+	margin: 40px 0;
 	font-size: 1.5em;
 	width: 200px;
 	height: 75px;
 }
 
-#scan {
+#login {
 	color: #FFF;
 	background-color: #158000;
 	border: 3px solid;
 	border-color: #168700 #137500 #137500 #168700;
 }
 
-#scan:hover {
+#login:hover {
     background-color: #1EB500;
 	border-color: #1FBA00 #1DAD00 #1DAD00 #1FBA00;
 }
 
-#scan:active {
+#login:active {
     background-color: #1EB500;
 	border-color: #1DAD00 #1FBA00 #1FBA00 #1DAD00;
+}
+
+#register-form input {
+	border-radius: 2px;
+	border: none;
 }

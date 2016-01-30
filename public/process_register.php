@@ -1,5 +1,8 @@
 <?php
-include_once 'db_connect.php';
+
+    // configuration
+    require("../includes/config.php");
+
 
 $error_msg = "";
 if (isset($_POST['username'], $_POST['email'], $_POST['password'])) {
@@ -21,7 +24,7 @@ if (isset($_POST['username'], $_POST['email'], $_POST['password'])) {
     //
  
     $prep_stmt = "SELECT id FROM users WHERE email = ? LIMIT 1";
-    $stmt = $mysqli->prepare($prep_stmt);
+    $stmt = $db->prepare($prep_stmt);
  
    // check existing email  
     if ($stmt) {
@@ -38,7 +41,7 @@ if (isset($_POST['username'], $_POST['email'], $_POST['password'])) {
         //now time to check for unique username
         else{
             $prep_stmt = "SELECT id FROM users WHERE username = ? LIMIT 1";
-            $stmt = $mysqli->prepare($prep_stmt); 
+            $stmt = $db->prepare($prep_stmt); 
             //if the statement is valid
             if($stmt){
                 $stmt->bind_param('s', $username);
@@ -66,7 +69,7 @@ if (isset($_POST['username'], $_POST['email'], $_POST['password'])) {
     if (empty($error_msg)) {
 
         // Insert the new user into the database 
-        if ($insert_stmt = $mysqli->prepare("INSERT INTO users (username, email, password) VALUES (?, ?, ?)")) {
+        if ($insert_stmt = $db->prepare("INSERT INTO users (username, email, password) VALUES (?, ?, ?)")) {
             $insert_stmt->bind_param('sss', $username, $email, $password);
             // if the execute fails then redirect
             if (!$insert_stmt->execute()) {
@@ -74,6 +77,6 @@ if (isset($_POST['username'], $_POST['email'], $_POST['password'])) {
 			}
         }
 		
-        header('Location: ../protected_page');
+        header('Location: ../index.php');
     }
 }

@@ -32,7 +32,6 @@
     <div class="container center" id="register-form">
     
     <h2>BILL SPLITTER</h2>
-    <img id="billsplitter" style="float: left;" src="images/billsplitter.png">
     <form method="POST">
        <div class="container center" id="bill-form">
         <label for="bill" id="bill_label" class="form-group">Bill &nbsp;</label>

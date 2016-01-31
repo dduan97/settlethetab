@@ -81,8 +81,22 @@ if (isset($_POST['username'], $_POST['email'], $_POST['password'])) {
             if (!$insert_stmt->execute()) {
 				header('Location: ../views/index.php?error=donegoofed81');
 			}
+			//otherwise get the last id put in
+			else{
+			    $get_id_stmt = $db->prepare("SELECT id FROM users WHERE username = ?");
+			    $get_id_stmt->bind_param('s', $username);
+			    $get_id_stmt->execute();
+			    $get_id_stmt->store_result();
+			    $get_id_stmt->bind_result($id);
+			    $get_id_stmt->fetch();
+			}
         }
 		
-        header('Location: ../index.php');
+		$_SESSION["id"] = $id;
+		$_SESSION["username"] = $username;
+		$_SESSION["email"] = $email;
+		$_SESSION["balance"] = $balance;
+		
+        header('Location: ../dashboard.php');
     }
 }

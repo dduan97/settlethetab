@@ -48,7 +48,7 @@
               echo "Mailer Error: " . $phpmailer->ErrorInfo;
             } else 
             {
-                header("Location: /");
+                header("Location: ../dashboard.php");
             }
     }        
 ?>

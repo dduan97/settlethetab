@@ -9,10 +9,13 @@
         {
             //if user is not already logged in
            header("Location: ../login.php");
-        } else
+        } else if(!empty($_GET["amount"]))
         {
+            render2("owemoneycontent.php", ["title" => "Upload Transaction", "amount"=>$_GET["amount"]]);
+        }
+        else{
             render2("owemoneycontent.php", ["title" => "Upload Transaction"]);
-        }    
+        }
     }
 
     //else if user reached page via POST (as by submitting a form via POST)
@@ -161,6 +164,6 @@
                 }
             }
     		
-            header('Location: ../dashboard.php');
+            header('Location: process_debtlist.php');
         }
 ?>    

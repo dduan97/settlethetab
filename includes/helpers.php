@@ -53,4 +53,6 @@
             trigger_error("Invalid view: {$view}", E_USER_ERROR);
         }
     }
+    
+
 ?>    

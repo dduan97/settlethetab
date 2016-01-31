@@ -126,3 +126,702 @@
 [30-Jan-2016 22:34:06 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/public/process_owemoney.php on line 30
 [30-Jan-2016 22:34:06 UTC] PHP Stack trace:
 [30-Jan-2016 22:34:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0
+[31-Jan-2016 00:36:44 UTC] PHP Warning:  file_get_contents(setup-x86_64.exe): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/process_photoupload.php on line 26
+[31-Jan-2016 00:36:44 UTC] PHP Stack trace:
+[31-Jan-2016 00:36:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 00:36:44 UTC] PHP   2. file_get_contents(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:26
+[31-Jan-2016 00:36:44 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 29
+[31-Jan-2016 00:36:44 UTC] PHP Stack trace:
+[31-Jan-2016 00:36:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 00:52:33 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 00:52:33 UTC] PHP Stack trace:
+[31-Jan-2016 00:52:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 00:52:33 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 01:02:56 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/public/process_photoupload.php on line 25
+[31-Jan-2016 01:03:44 UTC] PHP Warning:  file_get_contents(12 Apostles, Melbourne, Australia.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/process_photoupload.php on line 28
+[31-Jan-2016 01:03:44 UTC] PHP Stack trace:
+[31-Jan-2016 01:03:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:03:44 UTC] PHP   2. file_get_contents(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:28
+[31-Jan-2016 01:03:44 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 31
+[31-Jan-2016 01:03:44 UTC] PHP Stack trace:
+[31-Jan-2016 01:03:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:04:41 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 31
+[31-Jan-2016 01:04:41 UTC] PHP Stack trace:
+[31-Jan-2016 01:04:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:05:54 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 32
+[31-Jan-2016 01:05:54 UTC] PHP Stack trace:
+[31-Jan-2016 01:05:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:05:54 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 32
+[31-Jan-2016 01:05:54 UTC] PHP Stack trace:
+[31-Jan-2016 01:05:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:06:14 UTC] PHP Notice:  Undefined variable: temp in /home/ubuntu/workspace/public/process_photoupload.php on line 30
+[31-Jan-2016 01:06:14 UTC] PHP Stack trace:
+[31-Jan-2016 01:06:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:06:14 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 33
+[31-Jan-2016 01:06:14 UTC] PHP Stack trace:
+[31-Jan-2016 01:06:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:06:30 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 33
+[31-Jan-2016 01:06:30 UTC] PHP Stack trace:
+[31-Jan-2016 01:06:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:07:00 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 33
+[31-Jan-2016 01:07:00 UTC] PHP Stack trace:
+[31-Jan-2016 01:07:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:07:53 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 32
+[31-Jan-2016 01:07:53 UTC] PHP Stack trace:
+[31-Jan-2016 01:07:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:13:18 UTC] PHP Notice:  Undefined variable: _FILE in /home/ubuntu/workspace/public/process_photoupload.php on line 28
+[31-Jan-2016 01:13:18 UTC] PHP Stack trace:
+[31-Jan-2016 01:13:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:13:18 UTC] PHP Notice:  Undefined variable: insert_stmt in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 01:13:18 UTC] PHP Stack trace:
+[31-Jan-2016 01:13:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:13:18 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 01:13:18 UTC] PHP Stack trace:
+[31-Jan-2016 01:13:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:13:36 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/public/process_photoupload.php on line 26
+[31-Jan-2016 01:13:36 UTC] PHP Stack trace:
+[31-Jan-2016 01:13:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:13:36 UTC] PHP   2. file_get_contents(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:26
+[31-Jan-2016 01:13:36 UTC] PHP Notice:  Undefined variable: _FILE in /home/ubuntu/workspace/public/process_photoupload.php on line 28
+[31-Jan-2016 01:13:36 UTC] PHP Stack trace:
+[31-Jan-2016 01:13:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:13:36 UTC] PHP Notice:  Undefined variable: insert_stmt in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 01:13:36 UTC] PHP Stack trace:
+[31-Jan-2016 01:13:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:13:36 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 01:13:36 UTC] PHP Stack trace:
+[31-Jan-2016 01:13:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:13:36 UTC] PHP Notice:  Undefined variable: _FILE in /home/ubuntu/workspace/public/process_photoupload.php on line 28
+[31-Jan-2016 01:13:36 UTC] PHP Stack trace:
+[31-Jan-2016 01:13:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:13:36 UTC] PHP Notice:  Undefined variable: insert_stmt in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 01:13:36 UTC] PHP Stack trace:
+[31-Jan-2016 01:13:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:13:36 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 01:13:36 UTC] PHP Stack trace:
+[31-Jan-2016 01:13:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:14:52 UTC] PHP Notice:  Undefined variable: insert_stmt in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 01:14:52 UTC] PHP Stack trace:
+[31-Jan-2016 01:14:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:14:52 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 01:14:52 UTC] PHP Stack trace:
+[31-Jan-2016 01:14:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:15:25 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 01:15:25 UTC] PHP Stack trace:
+[31-Jan-2016 01:15:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:18:11 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 38
+[31-Jan-2016 01:18:11 UTC] PHP Stack trace:
+[31-Jan-2016 01:18:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:18:41 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 38
+[31-Jan-2016 01:18:41 UTC] PHP Stack trace:
+[31-Jan-2016 01:18:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:23:01 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 01:23:01 UTC] PHP Stack trace:
+[31-Jan-2016 01:23:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:27:13 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 01:27:13 UTC] PHP Stack trace:
+[31-Jan-2016 01:27:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 01:27:13 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 01:31:13 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 01:31:13 UTC] PHP Stack trace:
+[31-Jan-2016 01:31:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 01:31:13 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 01:31:50 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/public/process_photoupload.php on line 33
+[31-Jan-2016 01:32:08 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 01:32:08 UTC] PHP Stack trace:
+[31-Jan-2016 01:32:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 01:32:08 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 01:32:44 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/public/process_photoupload.php on line 33
+[31-Jan-2016 01:33:03 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 35
+[31-Jan-2016 01:33:03 UTC] PHP Stack trace:
+[31-Jan-2016 01:33:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:34:01 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 01:34:01 UTC] PHP Stack trace:
+[31-Jan-2016 01:34:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 01:34:01 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 01:35:02 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 35
+[31-Jan-2016 01:35:02 UTC] PHP Stack trace:
+[31-Jan-2016 01:35:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:36:48 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 35
+[31-Jan-2016 01:36:48 UTC] PHP Stack trace:
+[31-Jan-2016 01:36:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:41:47 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 33
+[31-Jan-2016 01:41:47 UTC] PHP Stack trace:
+[31-Jan-2016 01:41:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:43:24 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 33
+[31-Jan-2016 01:43:24 UTC] PHP Stack trace:
+[31-Jan-2016 01:43:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:44:40 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 33
+[31-Jan-2016 01:44:40 UTC] PHP Stack trace:
+[31-Jan-2016 01:44:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:45:50 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 33
+[31-Jan-2016 01:45:50 UTC] PHP Stack trace:
+[31-Jan-2016 01:45:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:49:50 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 01:49:50 UTC] PHP Stack trace:
+[31-Jan-2016 01:49:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 01:49:50 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 01:53:22 UTC] PHP Notice:  Undefined variable: mysqli in /home/ubuntu/workspace/public/process_photoupload.php on line 32
+[31-Jan-2016 01:53:22 UTC] PHP Stack trace:
+[31-Jan-2016 01:53:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:53:22 UTC] PHP Fatal error:  Call to a member function stmt_init() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 32
+[31-Jan-2016 01:53:22 UTC] PHP Stack trace:
+[31-Jan-2016 01:53:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:53:48 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 01:53:48 UTC] PHP Stack trace:
+[31-Jan-2016 01:53:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:53:48 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 01:53:48 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 01:53:48 UTC] PHP Stack trace:
+[31-Jan-2016 01:53:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:53:48 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 01:53:48 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 01:53:48 UTC] PHP Stack trace:
+[31-Jan-2016 01:53:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:53:48 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 01:53:48 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 01:53:48 UTC] PHP Stack trace:
+[31-Jan-2016 01:53:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:53:48 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 01:53:48 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 01:53:48 UTC] PHP Stack trace:
+[31-Jan-2016 01:53:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:53:48 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 01:53:48 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 01:53:48 UTC] PHP Stack trace:
+[31-Jan-2016 01:53:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:53:48 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 01:53:48 UTC] PHP Warning:  mysqli_stmt::bind_param(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/public/process_photoupload.php on line 35
+[31-Jan-2016 01:53:48 UTC] PHP Stack trace:
+[31-Jan-2016 01:53:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:53:48 UTC] PHP   2. mysqli_stmt->bind_param(*uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:35
+[31-Jan-2016 01:53:48 UTC] PHP Warning:  mysqli_stmt::execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/public/process_photoupload.php on line 38
+[31-Jan-2016 01:53:48 UTC] PHP Stack trace:
+[31-Jan-2016 01:53:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:53:48 UTC] PHP   2. mysqli_stmt->execute() /home/ubuntu/workspace/public/process_photoupload.php:38
+[31-Jan-2016 01:56:35 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 01:56:35 UTC] PHP Stack trace:
+[31-Jan-2016 01:56:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:56:35 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 01:56:35 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 01:56:35 UTC] PHP Stack trace:
+[31-Jan-2016 01:56:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:56:35 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 01:56:35 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 01:56:35 UTC] PHP Stack trace:
+[31-Jan-2016 01:56:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:56:35 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 01:56:35 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 01:56:35 UTC] PHP Stack trace:
+[31-Jan-2016 01:56:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:56:35 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 01:56:35 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 01:56:35 UTC] PHP Stack trace:
+[31-Jan-2016 01:56:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:56:35 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 01:56:35 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 01:56:35 UTC] PHP Stack trace:
+[31-Jan-2016 01:56:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:56:35 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 01:56:35 UTC] PHP Warning:  mysqli_stmt::bind_param(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/public/process_photoupload.php on line 35
+[31-Jan-2016 01:56:35 UTC] PHP Stack trace:
+[31-Jan-2016 01:56:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:56:35 UTC] PHP   2. mysqli_stmt->bind_param(*uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:35
+[31-Jan-2016 01:56:35 UTC] PHP Warning:  mysqli_stmt::execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/public/process_photoupload.php on line 38
+[31-Jan-2016 01:56:35 UTC] PHP Stack trace:
+[31-Jan-2016 01:56:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 01:56:35 UTC] PHP   2. mysqli_stmt->execute() /home/ubuntu/workspace/public/process_photoupload.php:38
+[31-Jan-2016 02:01:15 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:01:15 UTC] PHP Stack trace:
+[31-Jan-2016 02:01:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:01:15 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:01:15 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:01:15 UTC] PHP Stack trace:
+[31-Jan-2016 02:01:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:01:15 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:01:15 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:01:15 UTC] PHP Stack trace:
+[31-Jan-2016 02:01:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:01:15 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:01:15 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:01:15 UTC] PHP Stack trace:
+[31-Jan-2016 02:01:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:01:15 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:01:15 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:01:15 UTC] PHP Stack trace:
+[31-Jan-2016 02:01:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:01:15 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:01:15 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:01:15 UTC] PHP Stack trace:
+[31-Jan-2016 02:01:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:01:15 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:01:15 UTC] PHP Warning:  mysqli_stmt::bind_param(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/public/process_photoupload.php on line 35
+[31-Jan-2016 02:01:15 UTC] PHP Stack trace:
+[31-Jan-2016 02:01:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:01:15 UTC] PHP   2. mysqli_stmt->bind_param(*uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:35
+[31-Jan-2016 02:01:15 UTC] PHP Catchable fatal error:  Object of class mysqli_stmt could not be converted to string in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 02:01:15 UTC] PHP Stack trace:
+[31-Jan-2016 02:01:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:02:11 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:02:11 UTC] PHP Stack trace:
+[31-Jan-2016 02:02:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:02:11 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:02:11 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:02:11 UTC] PHP Stack trace:
+[31-Jan-2016 02:02:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:02:11 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:02:11 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:02:11 UTC] PHP Stack trace:
+[31-Jan-2016 02:02:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:02:11 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:02:11 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:02:11 UTC] PHP Stack trace:
+[31-Jan-2016 02:02:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:02:11 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:02:11 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:02:11 UTC] PHP Stack trace:
+[31-Jan-2016 02:02:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:02:11 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:02:11 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:02:11 UTC] PHP Stack trace:
+[31-Jan-2016 02:02:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:02:11 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:02:11 UTC] PHP Warning:  mysqli_stmt::bind_param(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/public/process_photoupload.php on line 35
+[31-Jan-2016 02:02:11 UTC] PHP Stack trace:
+[31-Jan-2016 02:02:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:02:11 UTC] PHP   2. mysqli_stmt->bind_param(*uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:35
+[31-Jan-2016 02:02:11 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 02:02:11 UTC] PHP Stack trace:
+[31-Jan-2016 02:02:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:02:11 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:36
+[31-Jan-2016 02:02:11 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 02:02:11 UTC] PHP Stack trace:
+[31-Jan-2016 02:02:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:02:11 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:36
+[31-Jan-2016 02:02:11 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 02:02:11 UTC] PHP Stack trace:
+[31-Jan-2016 02:02:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:02:11 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:36
+[31-Jan-2016 02:02:11 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 02:02:11 UTC] PHP Stack trace:
+[31-Jan-2016 02:02:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:02:11 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:36
+[31-Jan-2016 02:02:11 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 02:02:11 UTC] PHP Stack trace:
+[31-Jan-2016 02:02:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:02:11 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:36
+[31-Jan-2016 02:02:11 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 02:02:11 UTC] PHP Stack trace:
+[31-Jan-2016 02:02:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:02:11 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:36
+[31-Jan-2016 02:02:11 UTC] PHP Warning:  mysqli_stmt::execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/public/process_photoupload.php on line 38
+[31-Jan-2016 02:02:11 UTC] PHP Stack trace:
+[31-Jan-2016 02:02:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:02:11 UTC] PHP   2. mysqli_stmt->execute() /home/ubuntu/workspace/public/process_photoupload.php:38
+[31-Jan-2016 02:04:56 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:04:56 UTC] PHP Stack trace:
+[31-Jan-2016 02:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:04:56 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:04:56 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:04:56 UTC] PHP Stack trace:
+[31-Jan-2016 02:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:04:56 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:04:56 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:04:56 UTC] PHP Stack trace:
+[31-Jan-2016 02:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:04:56 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:04:56 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:04:56 UTC] PHP Stack trace:
+[31-Jan-2016 02:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:04:56 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:04:56 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:04:56 UTC] PHP Stack trace:
+[31-Jan-2016 02:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:04:56 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:04:56 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:04:56 UTC] PHP Stack trace:
+[31-Jan-2016 02:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:04:56 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:04:56 UTC] PHP Warning:  mysqli_stmt::bind_param(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/public/process_photoupload.php on line 35
+[31-Jan-2016 02:04:56 UTC] PHP Stack trace:
+[31-Jan-2016 02:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:04:56 UTC] PHP   2. mysqli_stmt->bind_param(*uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:35
+[31-Jan-2016 02:04:56 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 02:04:56 UTC] PHP Stack trace:
+[31-Jan-2016 02:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:04:56 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:36
+[31-Jan-2016 02:04:56 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 02:04:56 UTC] PHP Stack trace:
+[31-Jan-2016 02:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:04:56 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:36
+[31-Jan-2016 02:04:56 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 02:04:56 UTC] PHP Stack trace:
+[31-Jan-2016 02:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:04:56 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:36
+[31-Jan-2016 02:04:56 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 02:04:56 UTC] PHP Stack trace:
+[31-Jan-2016 02:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:04:56 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:36
+[31-Jan-2016 02:04:56 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 02:04:56 UTC] PHP Stack trace:
+[31-Jan-2016 02:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:04:56 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:36
+[31-Jan-2016 02:04:56 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 02:04:56 UTC] PHP Stack trace:
+[31-Jan-2016 02:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:04:56 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:36
+[31-Jan-2016 02:04:56 UTC] PHP Warning:  mysqli_stmt::execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/public/process_photoupload.php on line 38
+[31-Jan-2016 02:04:56 UTC] PHP Stack trace:
+[31-Jan-2016 02:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:04:56 UTC] PHP   2. mysqli_stmt->execute() /home/ubuntu/workspace/public/process_photoupload.php:38
+[31-Jan-2016 02:05:07 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 02:05:07 UTC] PHP Stack trace:
+[31-Jan-2016 02:05:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 02:05:07 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 02:07:22 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/public/process_photoupload.php on line 41
+[31-Jan-2016 02:10:33 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:10:33 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:33 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:10:33 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:10:33 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:33 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:10:33 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:10:33 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:33 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:10:33 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:10:33 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:33 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:10:33 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:10:33 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:33 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:10:33 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:10:33 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:33 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:10:33 UTC] PHP Warning:  mysqli_stmt::bind_param(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/public/process_photoupload.php on line 35
+[31-Jan-2016 02:10:33 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:33 UTC] PHP   2. mysqli_stmt->bind_param(*uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:35
+[31-Jan-2016 02:10:33 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 02:10:33 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:33 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:36
+[31-Jan-2016 02:10:33 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 02:10:33 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:33 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:36
+[31-Jan-2016 02:10:33 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 02:10:33 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:33 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:36
+[31-Jan-2016 02:10:33 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 02:10:33 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:33 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:36
+[31-Jan-2016 02:10:33 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 02:10:33 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:33 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:36
+[31-Jan-2016 02:10:33 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 36
+[31-Jan-2016 02:10:33 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:33 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:36
+[31-Jan-2016 02:10:33 UTC] PHP Warning:  mysqli_stmt::execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/public/process_photoupload.php on line 38
+[31-Jan-2016 02:10:33 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:33 UTC] PHP   2. mysqli_stmt->execute() /home/ubuntu/workspace/public/process_photoupload.php:38
+[31-Jan-2016 02:10:53 UTC] PHP Warning:  mysqli_stmt::bind_param(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/public/process_photoupload.php on line 34
+[31-Jan-2016 02:10:53 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:53 UTC] PHP   2. mysqli_stmt->bind_param(*uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:34
+[31-Jan-2016 02:10:53 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 35
+[31-Jan-2016 02:10:53 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:53 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:35
+[31-Jan-2016 02:10:53 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 35
+[31-Jan-2016 02:10:53 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:53 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:35
+[31-Jan-2016 02:10:53 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 35
+[31-Jan-2016 02:10:53 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:53 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:35
+[31-Jan-2016 02:10:53 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 35
+[31-Jan-2016 02:10:53 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:53 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:35
+[31-Jan-2016 02:10:53 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 35
+[31-Jan-2016 02:10:53 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:53 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:35
+[31-Jan-2016 02:10:53 UTC] PHP Warning:  var_dump(): Property access is not allowed yet in /home/ubuntu/workspace/public/process_photoupload.php on line 35
+[31-Jan-2016 02:10:53 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:53 UTC] PHP   2. var_dump(*uninitialized*) /home/ubuntu/workspace/public/process_photoupload.php:35
+[31-Jan-2016 02:10:53 UTC] PHP Warning:  mysqli_stmt::execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/public/process_photoupload.php on line 37
+[31-Jan-2016 02:10:53 UTC] PHP Stack trace:
+[31-Jan-2016 02:10:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[31-Jan-2016 02:10:53 UTC] PHP   2. mysqli_stmt->execute() /home/ubuntu/workspace/public/process_photoupload.php:37
+[31-Jan-2016 02:30:37 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/public/email.php on line 17
+[31-Jan-2016 02:31:45 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 02:31:45 UTC] PHP Stack trace:
+[31-Jan-2016 02:31:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 02:31:45 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 02:32:03 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 02:32:03 UTC] PHP Stack trace:
+[31-Jan-2016 02:32:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 02:32:03 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 02:45:45 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 02:45:45 UTC] PHP Stack trace:
+[31-Jan-2016 02:45:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 02:45:45 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 02:48:21 UTC] PHP Notice:  Undefined index: id in /home/ubuntu/workspace/public/process_owemoney.php on line 89
+[31-Jan-2016 02:48:21 UTC] PHP Stack trace:
+[31-Jan-2016 02:48:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0
+[31-Jan-2016 02:49:20 UTC] PHP Notice:  Undefined index: id in /home/ubuntu/workspace/public/process_owemoney.php on line 89
+[31-Jan-2016 02:49:20 UTC] PHP Stack trace:
+[31-Jan-2016 02:49:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0
+[31-Jan-2016 02:56:42 UTC] PHP Warning:  require(/includes/config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/process_owemoney.php on line 3
+[31-Jan-2016 02:56:42 UTC] PHP Stack trace:
+[31-Jan-2016 02:56:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0
+[31-Jan-2016 02:56:42 UTC] PHP Fatal error:  require(): Failed opening required '/includes/config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/process_owemoney.php on line 3
+[31-Jan-2016 02:56:42 UTC] PHP Stack trace:
+[31-Jan-2016 02:56:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0
+[31-Jan-2016 02:58:29 UTC] PHP Fatal error:  Invalid view: owemoney.php in /home/ubuntu/workspace/includes/helpers.php on line 53
+[31-Jan-2016 02:58:29 UTC] PHP Stack trace:
+[31-Jan-2016 02:58:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0
+[31-Jan-2016 02:58:29 UTC] PHP   2. render2() /home/ubuntu/workspace/public/process_owemoney.php:14
+[31-Jan-2016 02:58:29 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/includes/helpers.php:53
+[31-Jan-2016 02:58:31 UTC] PHP Fatal error:  Invalid view: owemoney.php in /home/ubuntu/workspace/includes/helpers.php on line 53
+[31-Jan-2016 02:58:31 UTC] PHP Stack trace:
+[31-Jan-2016 02:58:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0
+[31-Jan-2016 02:58:31 UTC] PHP   2. render2() /home/ubuntu/workspace/public/process_owemoney.php:14
+[31-Jan-2016 02:58:31 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/includes/helpers.php:53
+[31-Jan-2016 03:29:41 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/public/process_debtlist.php on line 14
+[31-Jan-2016 03:29:41 UTC] PHP Stack trace:
+[31-Jan-2016 03:29:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_debtlist.php:0
+[31-Jan-2016 03:29:41 UTC] PHP   2. mysqli_stmt->bind_result(*uninitialized*) /home/ubuntu/workspace/public/process_debtlist.php:14
+[31-Jan-2016 03:30:10 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/public/process_owemoney.php on line 114
+[31-Jan-2016 03:30:29 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/public/process_owemoney.php on line 134
+[31-Jan-2016 03:30:31 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/public/process_owemoney.php on line 134
+[31-Jan-2016 03:30:44 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/public/process_debtlist.php on line 14
+[31-Jan-2016 03:30:44 UTC] PHP Stack trace:
+[31-Jan-2016 03:30:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_debtlist.php:0
+[31-Jan-2016 03:30:44 UTC] PHP   2. mysqli_stmt->bind_result(*uninitialized*) /home/ubuntu/workspace/public/process_debtlist.php:14
+[31-Jan-2016 03:30:44 UTC] PHP Notice:  Undefined variable: result1 in /home/ubuntu/workspace/public/process_debtlist.php on line 17
+[31-Jan-2016 03:30:44 UTC] PHP Stack trace:
+[31-Jan-2016 03:30:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_debtlist.php:0
+[31-Jan-2016 03:30:44 UTC] PHP Notice:  Undefined variable: result2 in /home/ubuntu/workspace/public/process_debtlist.php on line 17
+[31-Jan-2016 03:30:44 UTC] PHP Stack trace:
+[31-Jan-2016 03:30:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_debtlist.php:0
+[31-Jan-2016 03:30:44 UTC] PHP Notice:  Undefined variable: result3 in /home/ubuntu/workspace/public/process_debtlist.php on line 17
+[31-Jan-2016 03:30:44 UTC] PHP Stack trace:
+[31-Jan-2016 03:30:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_debtlist.php:0
+[31-Jan-2016 03:30:44 UTC] PHP Notice:  Undefined variable: result4 in /home/ubuntu/workspace/public/process_debtlist.php on line 17
+[31-Jan-2016 03:30:44 UTC] PHP Stack trace:
+[31-Jan-2016 03:30:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_debtlist.php:0
+[31-Jan-2016 03:30:44 UTC] PHP Notice:  Undefined variable: result5 in /home/ubuntu/workspace/public/process_debtlist.php on line 17
+[31-Jan-2016 03:30:44 UTC] PHP Stack trace:
+[31-Jan-2016 03:30:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_debtlist.php:0
+[31-Jan-2016 03:30:44 UTC] PHP Notice:  Undefined variable: result6 in /home/ubuntu/workspace/public/process_debtlist.php on line 17
+[31-Jan-2016 03:30:44 UTC] PHP Stack trace:
+[31-Jan-2016 03:30:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_debtlist.php:0
+[31-Jan-2016 03:31:15 UTC] PHP Warning:  mysqli_stmt::close(): Couldn't fetch mysqli_stmt in /home/ubuntu/workspace/public/process_owemoney.php on line 121
+[31-Jan-2016 03:31:15 UTC] PHP Stack trace:
+[31-Jan-2016 03:31:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0
+[31-Jan-2016 03:31:15 UTC] PHP   2. mysqli_stmt->close() /home/ubuntu/workspace/public/process_owemoney.php:121
+[31-Jan-2016 03:34:10 UTC] PHP Notice:  Undefined variable: var_dump in /home/ubuntu/workspace/public/process_debtlist.php on line 17
+[31-Jan-2016 03:34:10 UTC] PHP Stack trace:
+[31-Jan-2016 03:34:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_debtlist.php:0
+[31-Jan-2016 03:34:10 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/public/process_debtlist.php on line 17
+[31-Jan-2016 03:34:10 UTC] PHP Stack trace:
+[31-Jan-2016 03:34:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_debtlist.php:0
+[31-Jan-2016 03:44:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/public/process_owemoney.php on line 162
+[31-Jan-2016 03:44:59 UTC] PHP Notice:  Undefined variable: array_result in /home/ubuntu/workspace/public/process_debtlist.php on line 25
+[31-Jan-2016 03:44:59 UTC] PHP Stack trace:
+[31-Jan-2016 03:44:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_debtlist.php:0
+[31-Jan-2016 04:12:09 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/ubuntu/workspace/public/process_debtlist.php on line 34
+[31-Jan-2016 04:12:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/public/process_debtlist.php on line 35
+[31-Jan-2016 04:17:25 UTC] PHP Fatal error:  Cannot redeclare getBalance() (previously declared in /home/ubuntu/workspace/includes/config.php:26) in /home/ubuntu/workspace/includes/helpers.php on line 58
+[31-Jan-2016 04:17:25 UTC] PHP Stack trace:
+[31-Jan-2016 04:17:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0
+[31-Jan-2016 04:17:25 UTC] PHP   2. require() /home/ubuntu/workspace/public/process_owemoney.php:3
+[31-Jan-2016 04:17:27 UTC] PHP Fatal error:  Cannot redeclare getBalance() (previously declared in /home/ubuntu/workspace/includes/config.php:26) in /home/ubuntu/workspace/includes/helpers.php on line 58
+[31-Jan-2016 04:17:27 UTC] PHP Stack trace:
+[31-Jan-2016 04:17:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0
+[31-Jan-2016 04:17:27 UTC] PHP   2. require() /home/ubuntu/workspace/public/process_owemoney.php:3
+[31-Jan-2016 04:17:29 UTC] PHP Fatal error:  Cannot redeclare getBalance() (previously declared in /home/ubuntu/workspace/includes/config.php:26) in /home/ubuntu/workspace/includes/helpers.php on line 58
+[31-Jan-2016 04:17:29 UTC] PHP Stack trace:
+[31-Jan-2016 04:17:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0
+[31-Jan-2016 04:17:29 UTC] PHP   2. require() /home/ubuntu/workspace/public/process_owemoney.php:3
+[31-Jan-2016 04:31:54 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/public/get_balance.php on line 2
+[31-Jan-2016 04:31:54 UTC] PHP Stack trace:
+[31-Jan-2016 04:31:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/get_balance.php:0
+[31-Jan-2016 04:32:34 UTC] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/get_balance.php on line 2
+[31-Jan-2016 04:32:34 UTC] PHP Stack trace:
+[31-Jan-2016 04:32:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/get_balance.php:0
+[31-Jan-2016 04:32:34 UTC] PHP Fatal error:  require(): Failed opening required 'includes/config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/get_balance.php on line 2
+[31-Jan-2016 04:32:34 UTC] PHP Stack trace:
+[31-Jan-2016 04:32:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/get_balance.php:0
+[31-Jan-2016 04:32:43 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/ubuntu/workspace/public/get_balance.php on line 4
+[31-Jan-2016 04:32:43 UTC] PHP Stack trace:
+[31-Jan-2016 04:32:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/get_balance.php:0
+[31-Jan-2016 04:32:57 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/ubuntu/workspace/public/get_balance.php on line 4
+[31-Jan-2016 04:32:57 UTC] PHP Stack trace:
+[31-Jan-2016 04:32:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/get_balance.php:0
+[31-Jan-2016 04:33:17 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::store_results() in /home/ubuntu/workspace/public/get_balance.php on line 6
+[31-Jan-2016 04:33:17 UTC] PHP Stack trace:
+[31-Jan-2016 04:33:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/get_balance.php:0
+[31-Jan-2016 04:33:33 UTC] PHP Fatal error:  Invalid view: dashboardcontent.php in /home/ubuntu/workspace/includes/helpers.php on line 24
+[31-Jan-2016 04:33:33 UTC] PHP Stack trace:
+[31-Jan-2016 04:33:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/get_balance.php:0
+[31-Jan-2016 04:33:33 UTC] PHP   2. render() /home/ubuntu/workspace/public/get_balance.php:10
+[31-Jan-2016 04:33:33 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/includes/helpers.php:24
+[31-Jan-2016 04:39:23 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 04:39:23 UTC] PHP Stack trace:
+[31-Jan-2016 04:39:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 04:39:23 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 04:40:07 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 04:40:07 UTC] PHP Stack trace:
+[31-Jan-2016 04:40:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 04:40:07 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 05:20:36 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/ubuntu/workspace/public/process_owemoney.php on line 105
+[31-Jan-2016 05:20:36 UTC] PHP Stack trace:
+[31-Jan-2016 05:20:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0
+[31-Jan-2016 05:20:36 UTC] PHP   2. mysqli_stmt->bind_param() /home/ubuntu/workspace/public/process_owemoney.php:105
+[31-Jan-2016 05:33:46 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 05:33:46 UTC] PHP Stack trace:
+[31-Jan-2016 05:33:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 05:33:46 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 05:35:07 UTC] PHP Notice:  Undefined variable: id in /home/ubuntu/workspace/public/process_register.php on line 86
+[31-Jan-2016 05:35:07 UTC] PHP Stack trace:
+[31-Jan-2016 05:35:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_register.php:0
+[31-Jan-2016 05:35:07 UTC] PHP Notice:  Undefined variable: balance in /home/ubuntu/workspace/public/process_register.php on line 89
+[31-Jan-2016 05:35:07 UTC] PHP Stack trace:
+[31-Jan-2016 05:35:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_register.php:0
+[31-Jan-2016 05:38:36 UTC] PHP Notice:  Undefined variable: balance in /home/ubuntu/workspace/public/process_register.php on line 98
+[31-Jan-2016 05:38:36 UTC] PHP Stack trace:
+[31-Jan-2016 05:38:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_register.php:0
+[31-Jan-2016 06:00:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 06:00:57 UTC] PHP Stack trace:
+[31-Jan-2016 06:00:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 06:00:57 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 06:04:18 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 06:04:18 UTC] PHP Stack trace:
+[31-Jan-2016 06:04:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 06:04:18 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 06:08:08 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 06:08:08 UTC] PHP Stack trace:
+[31-Jan-2016 06:08:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 06:08:08 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 06:36:42 UTC] PHP Notice:  Undefined variable: balance in /home/ubuntu/workspace/public/process_register.php on line 98
+[31-Jan-2016 06:36:42 UTC] PHP Stack trace:
+[31-Jan-2016 06:36:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_register.php:0
+[31-Jan-2016 06:40:32 UTC] PHP Notice:  Undefined variable: balance in /home/ubuntu/workspace/public/process_register.php on line 98
+[31-Jan-2016 06:40:32 UTC] PHP Stack trace:
+[31-Jan-2016 06:40:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_register.php:0
+[31-Jan-2016 06:45:02 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 06:45:02 UTC] PHP Stack trace:
+[31-Jan-2016 06:45:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 06:45:02 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 06:45:59 UTC] PHP Notice:  Undefined variable: balance in /home/ubuntu/workspace/public/process_register.php on line 98
+[31-Jan-2016 06:45:59 UTC] PHP Stack trace:
+[31-Jan-2016 06:45:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_register.php:0
+[31-Jan-2016 06:46:02 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 06:46:02 UTC] PHP Stack trace:
+[31-Jan-2016 06:46:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 06:46:02 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 06:46:50 UTC] PHP Notice:  Undefined variable: balance in /home/ubuntu/workspace/public/process_register.php on line 98
+[31-Jan-2016 06:46:50 UTC] PHP Stack trace:
+[31-Jan-2016 06:46:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_register.php:0
+[31-Jan-2016 06:49:05 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 06:49:05 UTC] PHP Stack trace:
+[31-Jan-2016 06:49:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 06:49:05 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 06:49:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 06:49:57 UTC] PHP Stack trace:
+[31-Jan-2016 06:49:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 06:49:57 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 06:51:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 06:51:57 UTC] PHP Stack trace:
+[31-Jan-2016 06:51:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 06:51:57 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 06:58:37 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 06:58:37 UTC] PHP Stack trace:
+[31-Jan-2016 06:58:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 06:58:37 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 07:03:36 UTC] PHP Notice:  Undefined variable: balance in /home/ubuntu/workspace/public/process_register.php on line 98
+[31-Jan-2016 07:03:36 UTC] PHP Stack trace:
+[31-Jan-2016 07:03:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_register.php:0
+[31-Jan-2016 07:09:26 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 07:09:26 UTC] PHP Stack trace:
+[31-Jan-2016 07:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 07:09:26 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 07:19:44 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 07:19:44 UTC] PHP Stack trace:
+[31-Jan-2016 07:19:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 07:19:44 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 07:24:20 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 07:24:20 UTC] PHP Stack trace:
+[31-Jan-2016 07:24:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 07:24:20 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 07:34:45 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 07:34:45 UTC] PHP Stack trace:
+[31-Jan-2016 07:34:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 07:34:45 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 07:35:08 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 07:35:08 UTC] PHP Stack trace:
+[31-Jan-2016 07:35:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 07:35:08 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 07:35:55 UTC] PHP Notice:  Undefined variable: amount in /home/ubuntu/workspace/public/process_owemoney.php on line 14
+[31-Jan-2016 07:35:55 UTC] PHP Stack trace:
+[31-Jan-2016 07:35:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0
+[31-Jan-2016 07:39:09 UTC] PHP Notice:  Undefined variable: amount in /home/ubuntu/workspace/public/process_owemoney.php on line 14
+[31-Jan-2016 07:39:09 UTC] PHP Stack trace:
+[31-Jan-2016 07:39:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0
+[31-Jan-2016 07:44:23 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/views/owemoneycontent.php on line 41
+[31-Jan-2016 07:44:23 UTC] PHP Stack trace:
+[31-Jan-2016 07:44:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0
+[31-Jan-2016 07:44:23 UTC] PHP   2. render2($view = *uninitialized*, $values = *uninitialized*) /home/ubuntu/workspace/public/process_owemoney.php:17
+[31-Jan-2016 07:45:26 UTC] PHP Notice:  Undefined variable: amount in /home/ubuntu/workspace/public/process_owemoney.php on line 14
+[31-Jan-2016 07:45:26 UTC] PHP Stack trace:
+[31-Jan-2016 07:45:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0
+[31-Jan-2016 07:45:26 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/views/owemoneycontent.php on line 41
+[31-Jan-2016 07:45:26 UTC] PHP Stack trace:
+[31-Jan-2016 07:45:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0
+[31-Jan-2016 07:45:26 UTC] PHP   2. render2($view = *uninitialized*, $values = *uninitialized*) /home/ubuntu/workspace/public/process_owemoney.php:14
+[31-Jan-2016 07:48:10 UTC] PHP Notice:  Undefined variable: amount in /home/ubuntu/workspace/public/process_owemoney.php on line 14
+[31-Jan-2016 07:48:10 UTC] PHP Stack trace:
+[31-Jan-2016 07:48:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0
+[31-Jan-2016 07:49:27 UTC] PHP Notice:  Undefined variable: amount in /home/ubuntu/workspace/public/process_owemoney.php on line 14
+[31-Jan-2016 07:49:27 UTC] PHP Stack trace:
+[31-Jan-2016 07:49:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0
+[31-Jan-2016 07:51:02 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 07:51:02 UTC] PHP Stack trace:
+[31-Jan-2016 07:51:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 07:51:02 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 08:03:58 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/public/process_login.php on line 29
+[31-Jan-2016 08:03:58 UTC] PHP Stack trace:
+[31-Jan-2016 08:03:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[31-Jan-2016 08:03:58 UTC] PHP   2. session_start() /home/ubuntu/workspace/public/process_login.php:29
+[31-Jan-2016 08:07:27 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/includes/config.php on line 34
+[31-Jan-2016 08:07:27 UTC] PHP Stack trace:
+[31-Jan-2016 08:07:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0

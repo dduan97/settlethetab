@@ -1,0 +1,70 @@
+
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+user agent stylesheetfieldset {
+    display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    min-width: -webkit-min-content;
+    border: 2px groove threedface;
+}
+Inherited from body
+body {
+    font-size: 16px;
+    margin: 1.75em 0;
+    background-color: #454545;
+    color: #fff;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #0a0a0a;
+    background: #fefefe;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html, body {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+Inherited from html
+html, body {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    box-sizing: inherit;
+}

@@ -21,5 +21,17 @@
     
     // start session
     session_start();
+    
+    //make sure redirected unless logged in
+    // require authentication for all pages except /login.php, /logout.php, and /register.php
+    if (!in_array($_SERVER["PHP_SELF"], ["/index.php", "/login.php", "/logout.php", "/register.php"]))
+    {
+        if (empty($_SESSION["id"]))
+        {
+            header("Location: index.php");
+        }
+    }
+
+
 
 ?>

@@ -1,8 +1,10 @@
 
 <body>
-  <!--<script src="js/scripts.js"></script>-->
 
+  <div class="bodywrap">
+    
   <div class="container center" id="register-form">
+    <h2>REGISTER</h2>
       <?php if(isset($_GET["error"])){
               switch($_GET["error"]){
                 case "validemail":
@@ -15,13 +17,13 @@
                   echo("<p>A user with that username already exists!</p>");
                   break;
                 case "donegoofed62":
-                  echo("<p>Someone done goofed with the database! (line 62)");
+                  echo("<p>Someone done goofed with the database! (line 62)</p>");
                   break;
                 case "donegoofed69":
-                  echo("<p>Someone done goofed with the database! (line 69)");
+                  echo("<p>Someone done goofed with the database! (line 69)</p>");
                   break;
                 case "donegoofed81":
-                  echo("<p>Someone done goofed with the database! (line 81)");
+                  echo("<p>Someone done goofed with the database! (line 81)</p>");
                   break;
               }
       }?>
@@ -38,6 +40,6 @@
     <input type="submit" value="Submit">
   </form>
 </div>
+</div>
 
 </body>
-</html>

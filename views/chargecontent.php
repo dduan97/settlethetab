@@ -1,22 +1,21 @@
-
 <body>
   
   <div class="bodywrap">
-    
   <div class="container center" id="register-form">
-    <h2>LOGIN</h2>
-    <?php if(isset($_GET["error"])){
-      echo("<p>Error logging in!</p>");
-      }?>
-    <form action="/public/process_login.php" method="post">
+  <div class="block">
+
+  <h2>CHARGE A FRIEND</h2>
+    <form action="" method="post">
       <label for="username">Username</label>
       <input type="text" id="username" name="username">
       <br>
-      <label for="password">Password</label>
-      <input type="password" id="password" name="password">
+      <label for="amount">Amount</label>
+      <input type="amount" id="amount" name="amount" placeholder="$$$KASH MONIES$$$">
       <br>
       <input type="submit" value="Submit">
     </form>
+    
+  </div>
   </div>
   </div>
 

@@ -3,7 +3,7 @@
         <div class="form-group"><br>
             <label for="recipient">To:  </label>
             <?php
-                print("<input autocomplete='off' autofocus class='form-control' name='email' placeholder='ID of receiver' type='text' value='{$recipientemail}'/>");
+                print("<input autocomplete='off' autofocus class='form-control' name='email' placeholder='ID of receiver' type='hidden' value='{$recipientemail}'/>");
             ?>
         </div><br>
         <div class="type_input" class="form-group">

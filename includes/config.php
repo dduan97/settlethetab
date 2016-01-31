@@ -18,5 +18,8 @@
     {
         die("Connection failed: " . $db->connect_error);
     } 
+    
+    // start session
+    session_start();
 
 ?>

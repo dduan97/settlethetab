@@ -12,7 +12,8 @@ if (isset($_POST['username'], $_POST['email'], $_POST['password'])) {
     $email = filter_var($email, FILTER_VALIDATE_EMAIL);
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         // Not a valid email
-        $error_msg="Not a valid email!";
+        $error_msg .= "Not a valid email!";
+        header("Location: ../register.php?error=validemail");
     }
  
     // hash the password even though we were probably supposed to do this before we sent in in a post variable but hey who needs privacy right
@@ -34,8 +35,9 @@ if (isset($_POST['username'], $_POST['email'], $_POST['password'])) {
  
         if ($stmt->num_rows == 1) {
             // A user with this email address already exists
-            $error_msg .= "A user with this email address already exists! ";
+            $error_msg .= "<p class='error'>A user with this email address already exists! </p>";
             $stmt->close();
+            header("Location: ../register.php?error=email");
         }
         
         //now time to check for unique username
@@ -49,20 +51,24 @@ if (isset($_POST['username'], $_POST['email'], $_POST['password'])) {
                 $stmt->store_result();
                 //if there's already a user with this username, then return an error
                 if($stmt->num_rows == 1){
-                    $error_msg .= "A user with this username already exists! ";
+                    $error_msg .= "<p class='error'>A user with this username already exists! </p>";
                     $stmt->close();
+                    header("Location: ../register.php?error=username");
                 }
             }
             //if the statement doesn't run, then return error
             else{
-                $error_code .= "Someone done goofed with the database! (line 55) ";
+                $error_code .= "<p class='error'>Someone done goofed with the database! (line 55) </p>";
                 $stmt->close();
+                header("Location: ../register.php?error=donegoofed62");
             }
         }
     } else {
         //else this is not a good sql statement
-        $error_msg .= "Someone done goofed with the database! (line 61) ";
+        $error_msg .= "<p class='error'>Someone done goofed with the database! (line 61) </p>";
         $stmt->close();
+        header("Location: ../register.php?error=donegoofed69");
+
     }
  
     //if everything went smoothly above
@@ -73,7 +79,7 @@ if (isset($_POST['username'], $_POST['email'], $_POST['password'])) {
             $insert_stmt->bind_param('sss', $username, $email, $password);
             // if the execute fails then redirect
             if (!$insert_stmt->execute()) {
-				header('Location: ../views/index.php?error=sql75');
+				header('Location: ../views/index.php?error=donegoofed81');
 			}
         }
 		

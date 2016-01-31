@@ -16,11 +16,22 @@ h1 {
 	text-transform: uppercase;
 }
 
+#about {
+	color: #104982;
+	text-shadow: 2.5px 2.5px rgba(85,85,85, 0.25);
+	font-size: 2em;
+
+}
+
 #header {
 	background-color: #1F6EC2;
-	height: 100px;
+	height: 150px;
 	border-top: 0;
 	padding: 15px 0 25px 0;
+}
+
+#header img {
+	max-height: 184px;
 }
 
 .border {
@@ -31,6 +42,12 @@ h1 {
 .container {
 	margin: 30px 0;
 	width: 45%;
+}
+
+.block {
+	min-height: 200px;
+	padding-top: 50px;
+	margin: 0 30px;
 }
 
 .left {
@@ -54,6 +71,7 @@ h1 {
 	font-size: 1.5em;
 	width: 200px;
 	height: 75px;
+	box-shadow: 3px 3px 4px #888888;
 }
 
 #login {
@@ -73,7 +91,56 @@ h1 {
 	border-color: #1DAD00 #1FBA00 #1FBA00 #1DAD00;
 }
 
+#reg {
+	color: #FFF;
+	background-color: #AD5428;
+	border: 3px solid;
+	border-color: #B35729 #A34F26 #A34F26 #B35729;
+}
+
+#reg:hover {
+    background-color: #D16732;
+	border-color: #D96C36 #C4612F #C4612F #D96C36;
+}
+
+#reg:active {
+    background-color: #D16732;
+	border-color: #C4612F #D96C36 #D96C36 #C4612F;
+}
+
+#register-form label {
+	position: relative;
+	right: 70px;
+	top: -12px;
+	font-weight: bold;
+}
+
 #register-form input {
 	border-radius: 2px;
 	border: none;
+	position: absolute;
+	left: 50%;
+}
+
+#regbutton {
+	color: #FFF;
+	background-color: #158000;
+	border: 3px solid;
+	border-color: #168700 #137500 #137500 #168700;
+	left: 25%;
+}
+
+#regbutton:hover {
+    background-color: #1EB500;
+	border-color: #1FBA00 #1DAD00 #1DAD00 #1FBA00;
+}
+
+#regbutton:active {
+    background-color: #1EB500;
+	border-color: #1DAD00 #1FBA00 #1FBA00 #1DAD00;
+}
+
+#choosefile {
+	position: relative;
+	left: 52px;
 }

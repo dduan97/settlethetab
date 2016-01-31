@@ -16,5 +16,8 @@
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-
+  <!--<script src="js/scripts.js"></script>-->
+  <div id="header"><img src="/images/SettletheTabLogo.png"><a href="index.php"></a></img></div>
+  <div class="border"></div>
 </head>
+

@@ -4,3 +4,125 @@
 [30-Jan-2016 19:21:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/public/process_register.php on line 27
 [30-Jan-2016 19:21:51 UTC] PHP Stack trace:
 [30-Jan-2016 19:21:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_register.php:0
+[30-Jan-2016 20:21:47 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/public/process_login.php on line 11
+[30-Jan-2016 20:22:50 UTC] PHP Parse error:  syntax error, unexpected ''Location: login.php);' (T_ENCAPSED_AND_WHITESPACE) in /home/ubuntu/workspace/public/process_photoupload.php on line 12
+[30-Jan-2016 20:34:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/public/process_photoupload.php on line 25
+[30-Jan-2016 20:53:47 UTC] PHP Catchable fatal error:  Object of class mysqli_stmt could not be converted to string in /home/ubuntu/workspace/public/process_login.php on line 28
+[30-Jan-2016 20:53:47 UTC] PHP Stack trace:
+[30-Jan-2016 20:53:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_login.php:0
+[30-Jan-2016 21:11:56 UTC] PHP Warning:  file_get_contents() expects parameter 1 to be a valid path, array given in /home/ubuntu/workspace/public/process_photoupload.php on line 26
+[30-Jan-2016 21:11:56 UTC] PHP Stack trace:
+[30-Jan-2016 21:11:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:11:56 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/public/process_photoupload.php:26
+[30-Jan-2016 21:11:56 UTC] PHP Notice:  Undefined variable: _SESSION in /home/ubuntu/workspace/public/process_photoupload.php on line 28
+[30-Jan-2016 21:11:56 UTC] PHP Stack trace:
+[30-Jan-2016 21:11:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:11:56 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ubuntu/workspace/public/process_photoupload.php on line 29
+[30-Jan-2016 21:11:56 UTC] PHP Stack trace:
+[30-Jan-2016 21:11:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:11:56 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/public/process_photoupload.php:29
+[30-Jan-2016 21:11:56 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/public/process_photoupload.php on line 29
+[30-Jan-2016 21:11:56 UTC] PHP Stack trace:
+[30-Jan-2016 21:11:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:11:56 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/public/process_photoupload.php:29
+[30-Jan-2016 21:11:56 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/public/process_photoupload.php on line 29
+[30-Jan-2016 21:11:56 UTC] PHP Stack trace:
+[30-Jan-2016 21:11:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:11:56 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/public/process_photoupload.php:29
+[30-Jan-2016 21:15:42 UTC] PHP Warning:  file_get_contents() expects parameter 1 to be a valid path, array given in /home/ubuntu/workspace/public/process_photoupload.php on line 26
+[30-Jan-2016 21:15:42 UTC] PHP Stack trace:
+[30-Jan-2016 21:15:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:15:42 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/public/process_photoupload.php:26
+[30-Jan-2016 21:15:42 UTC] PHP Notice:  Undefined variable: _SESSION in /home/ubuntu/workspace/public/process_photoupload.php on line 28
+[30-Jan-2016 21:15:42 UTC] PHP Stack trace:
+[30-Jan-2016 21:15:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:15:42 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ubuntu/workspace/public/process_photoupload.php on line 29
+[30-Jan-2016 21:15:42 UTC] PHP Stack trace:
+[30-Jan-2016 21:15:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:15:42 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/public/process_photoupload.php:29
+[30-Jan-2016 21:15:42 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/public/process_photoupload.php on line 29
+[30-Jan-2016 21:15:42 UTC] PHP Stack trace:
+[30-Jan-2016 21:15:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:15:42 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/public/process_photoupload.php:29
+[30-Jan-2016 21:15:42 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/public/process_photoupload.php on line 29
+[30-Jan-2016 21:15:42 UTC] PHP Stack trace:
+[30-Jan-2016 21:15:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:15:42 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/public/process_photoupload.php:29
+[30-Jan-2016 21:16:06 UTC] PHP Warning:  file_get_contents() expects parameter 1 to be a valid path, array given in /home/ubuntu/workspace/public/process_photoupload.php on line 26
+[30-Jan-2016 21:16:06 UTC] PHP Stack trace:
+[30-Jan-2016 21:16:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:16:06 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/public/process_photoupload.php:26
+[30-Jan-2016 21:16:06 UTC] PHP Notice:  Undefined variable: _SESSION in /home/ubuntu/workspace/public/process_photoupload.php on line 28
+[30-Jan-2016 21:16:06 UTC] PHP Stack trace:
+[30-Jan-2016 21:16:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:16:06 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ubuntu/workspace/public/process_photoupload.php on line 29
+[30-Jan-2016 21:16:06 UTC] PHP Stack trace:
+[30-Jan-2016 21:16:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:16:06 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/public/process_photoupload.php:29
+[30-Jan-2016 21:16:06 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/public/process_photoupload.php on line 29
+[30-Jan-2016 21:16:06 UTC] PHP Stack trace:
+[30-Jan-2016 21:16:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:16:06 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/public/process_photoupload.php:29
+[30-Jan-2016 21:16:06 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/public/process_photoupload.php on line 29
+[30-Jan-2016 21:16:06 UTC] PHP Stack trace:
+[30-Jan-2016 21:16:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:16:06 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/public/process_photoupload.php:29
+[30-Jan-2016 21:17:15 UTC] PHP Warning:  file_get_contents() expects parameter 1 to be a valid path, array given in /home/ubuntu/workspace/public/process_photoupload.php on line 26
+[30-Jan-2016 21:17:15 UTC] PHP Stack trace:
+[30-Jan-2016 21:17:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:17:15 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/public/process_photoupload.php:26
+[30-Jan-2016 21:17:15 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ubuntu/workspace/public/process_photoupload.php on line 29
+[30-Jan-2016 21:17:15 UTC] PHP Stack trace:
+[30-Jan-2016 21:17:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:17:15 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/public/process_photoupload.php:29
+[30-Jan-2016 21:17:15 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/public/process_photoupload.php on line 29
+[30-Jan-2016 21:17:15 UTC] PHP Stack trace:
+[30-Jan-2016 21:17:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:17:15 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/public/process_photoupload.php:29
+[30-Jan-2016 21:17:15 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/public/process_photoupload.php on line 29
+[30-Jan-2016 21:17:15 UTC] PHP Stack trace:
+[30-Jan-2016 21:17:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:17:15 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/public/process_photoupload.php:29
+[30-Jan-2016 21:20:42 UTC] PHP Warning:  file_get_contents() expects parameter 1 to be a valid path, array given in /home/ubuntu/workspace/public/process_photoupload.php on line 26
+[30-Jan-2016 21:20:42 UTC] PHP Stack trace:
+[30-Jan-2016 21:20:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:20:42 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/public/process_photoupload.php:26
+[30-Jan-2016 21:20:42 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 29
+[30-Jan-2016 21:20:42 UTC] PHP Stack trace:
+[30-Jan-2016 21:20:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:22:26 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/public/process_photoupload.php on line 26
+[30-Jan-2016 21:22:28 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/public/process_photoupload.php on line 26
+[30-Jan-2016 21:22:29 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/public/process_photoupload.php on line 26
+[30-Jan-2016 21:24:42 UTC] PHP Warning:  file_get_contents(a4.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/process_photoupload.php on line 24
+[30-Jan-2016 21:24:42 UTC] PHP Stack trace:
+[30-Jan-2016 21:24:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:24:42 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/public/process_photoupload.php:24
+[30-Jan-2016 21:24:42 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 27
+[30-Jan-2016 21:24:42 UTC] PHP Stack trace:
+[30-Jan-2016 21:24:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:37:35 UTC] PHP Warning:  file_get_contents(0001R.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/process_photoupload.php on line 24
+[30-Jan-2016 21:37:35 UTC] PHP Stack trace:
+[30-Jan-2016 21:37:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:37:35 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/public/process_photoupload.php:24
+[30-Jan-2016 21:37:35 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 27
+[30-Jan-2016 21:37:35 UTC] PHP Stack trace:
+[30-Jan-2016 21:37:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:40:30 UTC] PHP Warning:  file_get_contents(0001R.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/process_photoupload.php on line 24
+[30-Jan-2016 21:40:30 UTC] PHP Stack trace:
+[30-Jan-2016 21:40:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:40:30 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/public/process_photoupload.php:24
+[30-Jan-2016 21:40:30 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 27
+[30-Jan-2016 21:40:30 UTC] PHP Stack trace:
+[30-Jan-2016 21:40:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:41:42 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/public/process_photoupload.php on line 27
+[30-Jan-2016 21:41:42 UTC] PHP Stack trace:
+[30-Jan-2016 21:41:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_photoupload.php:0
+[30-Jan-2016 21:50:14 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/public/process_owemoney.php on line 23
+[30-Jan-2016 21:50:28 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/public/process_owemoney.php on line 23
+[30-Jan-2016 21:50:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/public/process_owemoney.php on line 23
+[30-Jan-2016 21:50:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/public/process_owemoney.php on line 23
+[30-Jan-2016 21:51:32 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/public/process_owemoney.php on line 23
+[30-Jan-2016 22:18:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/public/process_owemoney.php on line 93
+[30-Jan-2016 22:34:06 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/public/process_owemoney.php on line 30
+[30-Jan-2016 22:34:06 UTC] PHP Stack trace:
+[30-Jan-2016 22:34:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/process_owemoney.php:0

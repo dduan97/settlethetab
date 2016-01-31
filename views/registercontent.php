@@ -1,39 +1,39 @@
-<!doctype html>
-
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>Register | Settle the Tab</title>
-  <meta name="description" content="Register for Settle the Tab">
-
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Signika:400,600' rel='stylesheet' type='text/css'>
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-
-</head>
 
 <body>
   <!--<script src="js/scripts.js"></script>-->
-  <div id="header"><h1>Settle the Tab</h1></div>
-  <div class="border"></div>
 
   <div class="container center" id="register-form">
+      <?php if(isset($_GET["error"])){
+              switch($_GET["error"]){
+                case "validemail":
+                  echo("<p>Please enter a valid email address!</p>");
+                  break;
+                case "email":
+                  echo("<p>A user with that email already exists!</p>");
+                  break;
+                case "username":
+                  echo("<p>A user with that username already exists!</p>");
+                  break;
+                case "donegoofed62":
+                  echo("<p>Someone done goofed with the database! (line 62)");
+                  break;
+                case "donegoofed69":
+                  echo("<p>Someone done goofed with the database! (line 69)");
+                  break;
+                case "donegoofed81":
+                  echo("<p>Someone done goofed with the database! (line 81)");
+                  break;
+              }
+      }?>
   <form action="/public/process_register.php" method="post">
-    <label for="fname">Email</label>
-    <input type="text" id="fname" name="email">
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email">
     <br>
-    <label for="lname">Username</label>
-    <input type="text" id="lname" name="username">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username">
     <br>
-    <label for="email">Password</label>
-    <input type="password" id="email" name="password">
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password">
     <br>
     <input type="submit" value="Submit">
   </form>

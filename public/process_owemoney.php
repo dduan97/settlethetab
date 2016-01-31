@@ -87,18 +87,22 @@
         {
             if($_POST["whoOwes"] == "me"){
                 $ower = $_SESSION["id"];
+                $owerusername = $_SESSION['username'];
                 $owed = $otheruser;
+                $owedusername = $user;
             }
             else{
                 $owed = $_SESSION["id"];
+                $owedusername = $_SESSION['username'];
                 $ower = $otheruser;
+                $owerusername = $user;
             }
         
 
             // Insert the new user into the database 
-            if ($insert_stmt = $db->prepare("INSERT INTO unpaid (ower, owed, amount, note) VALUES (?, ?, ?, ?)")) 
+            if ($insert_stmt = $db->prepare("INSERT INTO unpaid (ower, ower_username, owed, owed_username, amount, note) VALUES (?, ?, ?, ?, ?, ?)")) 
             {
-                $insert_stmt->bind_param('ssss', $ower, $owed, $amt, $note);
+                $insert_stmt->bind_param('ssssss', $ower, $owerusername, $owed, $owedusername, $amt, $note);
                 // if the execute fails then redirect
                 if (!$insert_stmt->execute()) 
                 {
@@ -157,6 +161,6 @@
                 }
             }
     		
-            //header('Location: ../index.php');
+            header('Location: ../dashboard.php');
         }
 ?>    

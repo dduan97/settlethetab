@@ -18,11 +18,19 @@
             array_push($result_array, $row);
 
         }
-        var_dump($result_array);
-        
-    }
-    else{
-        
-    }
-
+          // create associative array for portfolio 
+        $positions = [];
+        foreach ($result_array as $row)
+        {
+                $positions[] = [
+                    "owername" => $row[2],
+                    "owedname" => $row[4],
+                    "amount" =>$row[5],
+                    "date" =>$row[6],
+                    "note" =>$row[7]
+                ];
+            }
+        }
+        render2("test.php", ["positions"=>$positions]);
+    
     ?>

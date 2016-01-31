@@ -93,7 +93,7 @@
                 $owed = $_SESSION["id"];
                 $ower = $otheruser;
             }
-            echo($_POST["whoOwes"]);
+        
 
             // Insert the new user into the database 
             if ($insert_stmt = $db->prepare("INSERT INTO unpaid (ower, owed, amount, note) VALUES (?, ?, ?, ?)")) 
@@ -104,6 +104,57 @@
                 {
     				header('Location: ../views/index.php?error=donegoofed81');
     			}
+    			$insert_stmt->close();
+            }
+            // update balance
+            // check current user balance
+        
+        // find own user's balance
+            $cash_stmt = $db->prepare("SELECT balance FROM users WHERE id = ? LIMIT 1");
+            if($cash_stmt)
+            {
+                $cash_stmt->bind_param('s', $_SESSION["id"]);
+                $cash_stmt->execute();
+                $cash_stmt->store_result();
+                $cash_stmt->bind_result($userbalance);
+                $cash_stmt->fetch();
+                
+                // find other user's balance
+                $other_stmt = $db->prepare("SELECT balance FROM users WHERE id = ? LIMIT 1");
+                if($other_stmt)
+                {
+                    $other_stmt->bind_param('s', $otheruser);
+                    $other_stmt->execute();
+                    $other_stmt->store_result();
+                    $other_stmt->bind_result($otheruserbalance);
+                    $other_stmt->fetch();
+                
+                    if($_POST["whoOwes"] == "me")
+                    {
+                        $usertotalbalance = $userbalance - $amt;
+                        $othertotalbalance = $otheruserbalance + $amt;
+                    }
+                    // someone owes me money
+                    else{
+                        $usertotalbalance = $userbalance + $amt;
+                        $othertotalbalance = $otheruserbalance - $amt;
+                    }
+                    //update total balance for self
+                    // UPDATE users SET cash = cash + {$_POST["amount"]} WHERE id = ?", $_SESSION["id"]);
+                    $update_stmt = $db->prepare("UPDATE users SET balance = ? WHERE id =? LIMIT 1");
+                    if($update_stmt)
+                    {
+                        $update_stmt->bind_param('ss', $usertotalbalance, $_SESSION["id"]);
+                        $update_stmt->execute();
+                    }
+                    // update balance for other user
+                    $otherupdate_stmt = $db->prepare("UPDATE users SET balance = ? WHERE id =? LIMIT 1");
+                    if($otherupdate_stmt)
+                    {
+                        $otherupdate_stmt->bind_param('ss', $othertotalbalance, $otheruser);
+                        $otherupdate_stmt->execute();
+                    }
+                }
             }
     		
             //header('Location: ../index.php');

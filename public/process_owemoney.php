@@ -11,7 +11,7 @@
            header("Location: ../login.php");
         } else
         {
-            render2("owemoney.php", ["title" => "Upload Transaction"]);
+            render2("owemoneycontent.php", ["title" => "Upload Transaction"]);
         }    
     }
 
@@ -28,20 +28,21 @@
             $note = filter_input(INPUT_POST, 'note', FILTER_SANITIZE_STRING);
             
         }
-            
-       $prep_stmt = "SELECT * FROM users WHERE username = ? LIMIT 1";
+        
+        // get the id of the wanker who's about to get his knees bashed in
+        $prep_stmt = "SELECT id FROM users WHERE username = ? LIMIT 1";
         $stmt = $db->prepare($prep_stmt);
     
-        // see if user owed is valid
+        // see if command doesn't break the website
         if ($stmt) 
         {
             $stmt->bind_param('s', $user);
             $stmt->execute();
             $stmt->store_result();
-            var_dump($stmt);
+            $stmt->bind_result($otheruser);
+            $stmt->fetch();
             if ($stmt->num_rows != 1) 
             {
-            
                 $error_msg .= "<p class='error'>This user does not exist! Keep your money you fucker!</p>";
                 echo($error_msg);
                 $stmt->close();
@@ -84,11 +85,20 @@
     //if everything went smoothly above
         if (empty($error_msg))
         {
-    
+            if($_POST["whoOwes"] == "me"){
+                $ower = $_SESSION["id"];
+                $owed = $otheruser;
+            }
+            else{
+                $owed = $_SESSION["id"];
+                $ower = $otheruser;
+            }
+            echo($_POST["whoOwes"]);
+
             // Insert the new user into the database 
             if ($insert_stmt = $db->prepare("INSERT INTO unpaid (ower, owed, amount, note) VALUES (?, ?, ?, ?)")) 
             {
-                $insert_stmt->bind_param('ssss', $_SESSION['username'], $user, $amt, $note);
+                $insert_stmt->bind_param('ssss', $ower, $owed, $amt, $note);
                 // if the execute fails then redirect
                 if (!$insert_stmt->execute()) 
                 {
@@ -96,6 +106,6 @@
     			}
             }
     		
-            header('Location: ../index.php');
+            //header('Location: ../index.php');
         }
 ?>    

@@ -50,3 +50,5 @@
     else{
         echo("<script> alert('ya really done goofed'); </script>");
     }
+    
+    $stmt->close();

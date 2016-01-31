@@ -183,6 +183,23 @@ hr {
 	border-color: #852828 #E6C5C5 #E6C5C5 #852828 ;
 }
 
+.blue {
+	color: #EEE;
+	background-color: #2E3D80;
+	border: 3px solid;
+	border-color: #314187 #293773 #293773 #314187;
+}
+
+.blue:hover {
+    background-color: #4154AB;
+	border-color: #475BB5 #3F51A1 #3F51A1 #475BB5;
+}
+
+.blue:active {
+    background-color: #4154AB;
+	border-color: #33428A #4154AB #4154AB #33428A;
+}
+
 #graphic {
 	max-width: 300px;
 	float: left;
@@ -220,6 +237,15 @@ hr {
 	border-color: #1DAD00 #1FBA00 #1FBA00 #1DAD00;
 }
 
+.dash {
+	margin: 40px 100px;
+}
+
+.dashbody {
+	height: 600px;
+}
+}
+
 #choosefile {
 	position: relative;
 	left: 52px;
@@ -230,6 +256,7 @@ hr {
 	color: #FFF;
 	background-color: #98C2ED;
 	box-shadow: 3px 3px 4px #888888;
+	margin-top: 70px;
 }
 
 #friends img {

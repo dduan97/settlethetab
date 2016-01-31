@@ -30,8 +30,8 @@
 <div class="container center">
 
 <form action="/public/process_owemoney.php" method="post">
-    <button id="owesme" type="button" class="green button2" onClick="theyOwe()">Request money from user</button>
-    <button id="owesomeone" type="button" class="red2 button2" onClick="iOwe()">Anti-request money from user</button>
+    <button id="owesme" type="button" class="green button2" onClick="theyOwe()">Someone Owes Me Money</button>
+    <button id="owesomeone" type="button" class="red2 button2" onClick="iOwe()">I Owe Someone Money</button>
   <div class="container center rcolor" id="register-form">
     <input type="text" id="whoOwes" name="whoOwes" value="me" style="display: none">
     <label for="owed" id="type_iowesomeone"class="form-group">User I owe &nbsp;</label>

@@ -5,7 +5,7 @@
 
   <h2>SCAN A RECEIPT</h2>
   <br>
-  <form action="http://api.ocrapiservice.com/1.0/rest/ocr" method="POST" enctype="multipart/form-data">
+  <form action="../public/process_scan.php" method="POST" enctype="multipart/form-data">
       <input type="hidden" name="MAX_FILE_SIZE" value="100000000" />
         Choose a file to upload:
         <br><br>

@@ -1,11 +1,12 @@
 <body>
     
-  <div class="bodywrap">
+  <div class="bodywrap dashbody">
       <div class="block" style="min-height: 450px;">
           
           <div class="container" style="float: left;">
-              <a href="calculate.php"><button class="button green" id="scan">Bill Splitter</button></a>
-              <a href="owemoney.php"><button class="button red" id="charge">Manual Charge</button></a>
+              <a href="calculate.php"><button class="dash button green" id="scan">Bill Splitter</button></a>
+              <a href="owemoney.php"><button class="dash button red" id="charge">Manual Charge</button></a>
+              <a href="scan.php"><button class="dash button blue" id="scan">Scan Receipt</button></a>
           </div>
         
           <div class="container" id="friends">

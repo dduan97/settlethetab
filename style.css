@@ -16,6 +16,17 @@ h1 {
 	text-transform: uppercase;
 }
 
+h2 {
+	font-family: 'Signika';
+	font-size: 2em;
+	text-shadow: 1px 1px 2px #444;
+	font-weight: normal;
+}
+
+a {
+	color: inherit;
+}
+
 #about {
 	color: #104982;
 	text-shadow: 2.5px 2.5px rgba(85,85,85, 0.25);
@@ -67,43 +78,43 @@ h1 {
 
 .button {
 	border-radius: 5px;
-	margin: 40px 0;
+	margin: 40px 20px;
 	font-size: 1.5em;
 	width: 200px;
 	height: 75px;
 	box-shadow: 3px 3px 4px #888888;
 }
 
-#login {
+.green {
 	color: #FFF;
 	background-color: #158000;
 	border: 3px solid;
 	border-color: #168700 #137500 #137500 #168700;
 }
 
-#login:hover {
+.green:hover {
     background-color: #1EB500;
 	border-color: #1FBA00 #1DAD00 #1DAD00 #1FBA00;
 }
 
-#login:active {
+.green:active {
     background-color: #1EB500;
 	border-color: #1DAD00 #1FBA00 #1FBA00 #1DAD00;
 }
 
-#reg {
+.red {
 	color: #FFF;
 	background-color: #AD5428;
 	border: 3px solid;
 	border-color: #B35729 #A34F26 #A34F26 #B35729;
 }
 
-#reg:hover {
+.red:hover {
     background-color: #D16732;
 	border-color: #D96C36 #C4612F #C4612F #D96C36;
 }
 
-#reg:active {
+.red:active {
     background-color: #D16732;
 	border-color: #C4612F #D96C36 #D96C36 #C4612F;
 }
@@ -143,4 +154,20 @@ h1 {
 #choosefile {
 	position: relative;
 	left: 52px;
+}
+
+#friends {
+	float: right;
+	color: #FFF;
+	background-color: #98C2ED;
+	box-shadow: 3px 3px 4px #888888;
+}
+
+.content {
+	color: #233342;
+	background-color: #EBEBEB;
+	padding: 5px 50px;
+	text-align: left;
+	border-top: 10px;
+	border-color: #111;
 }
